@@ -1,0 +1,32 @@
+# datasets
+datasets: domain_net
+
+# Backbone
+model_name: VIT-B
+
+# Optimizer related
+lr: 3e-6
+weight_decay: 5e-4
+momentum: 0.9
+label_smoothing: 0.1
+l_batch_size: 32
+u_batch_size: 32
+
+# Loss related
+lambda1: 0.025
+lambda2: 0.1
+lambda3: 0.0025
+
+# scheduler related
+scheduler: True
+lr_gamma: 0.0003
+lr_decay: 0.75
+multiple_lr_classifier: 1000
+
+# Training related
+n_iter_per_epoch: 1000
+n_epoch: 40
+
+# Others
+seed: 42
+num_workers: 4
