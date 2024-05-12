@@ -24,15 +24,15 @@ You can employ various networks to train on different datasets according to your
 For instance, when utilizing ResNet50 for training Art➡Clipart on the office-home dataset, you may execute the following command:
 
 ```shell
-python main.py --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50
+python main.py --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50 --lr 3e-7 --multiple_lr_classifier 10000
 ```
 When employing residual sparse training, simply include "--rst" in your command:
 ```shell
-python main.py --rst --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50
+python main.py --rst --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50 --lr 3e-7 --multiple_lr_classifier 10000
 ```
 When implementing FixMatch training, just add "--fixmatch":
 ```shell
-python main.py --fixmatch --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50
+python main.py --fixmatch --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50 --lr 3e-7 --multiple_lr_classifier 10000
 ```
 
 ## Testing
