@@ -3,6 +3,7 @@
 **by Wenlve Zhou and Zhiheng Zhou**
 
 **[[TCSVT 2024 Paper]](https://ieeexplore.ieee.org/document/10505301)**
+**[[pdf]](resources/manuscript.pdf)**
 
 
 ## Overview
