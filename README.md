@@ -22,7 +22,7 @@ Combining CMKD and RST, we present a comprehensive solution that effectively lev
 
 You can employ various networks to train on different datasets according to your objectives. 
 
-For instance, when utilizing ResNet50 for training Art to Clipart on the office-home dataset, you may execute the following command:
+For instance, when utilizing ResNet50 for training Art --> Clipart on the office-home dataset, you may execute the following command:
 
 ```shell
 python main.py --config configs/office_home.yaml --data_dir data/office_home --src_domain Art --tgt_domain Clipart --model_name RN50 --lr 3e-7 --multiple_lr_classifier 10000
