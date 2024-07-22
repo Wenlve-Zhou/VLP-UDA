@@ -4,7 +4,7 @@
 
 **[[TCSVT 2024 Paper]](https://ieeexplore.ieee.org/document/10505301)**
 **[[pdf]](resources/manuscript.pdf)**
-**[[论文解读]](https://www.mdnice.com/writing/897d725add62445b83ae48049b4fb3ba)**
+**[[论文解读]](https://zhuanlan.zhihu.com/p/710308374)**
 
 
 ## Overview
